@@ -1,0 +1,8 @@
+# Ignore Python Cache
+__pycache__
+
+# Ignore al files from virtual environment
+/flaskOAuthServer
+
+# Ignore database files
+instance

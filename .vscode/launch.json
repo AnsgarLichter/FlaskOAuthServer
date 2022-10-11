@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_ENV": "development",
+                "FLASK_APP": "app.py",
+                "FLASK_DEBUG": "1",
+                "AUTHLIB_INSECURE_TRANSPORT": "1"
+            },
+            "args": [
+                "run",
+                "--port",
+                "5002"
+            ],
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}
