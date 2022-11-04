@@ -108,7 +108,7 @@ def authorize():
     print(os.getenv('AUTHLIB_INSECURE_TRANSPORT'))
 
     if not user:
-        return redirect(url_for('home.home', next=request.url))
+        return redirect(url_for('routes.home', next=request.url))
 
     if request.method == 'GET':
         try:

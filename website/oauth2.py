@@ -96,8 +96,8 @@ def config_oauth(app):
     authorization.init_app(app)
 
     #Support All Grants
-    authorization.register_grant(grants.ImplicitGrant)
-    authorization.register_grant(grants.ClientCredentialsGrant)
+    #authorization.register_grant(grants.ImplicitGrant)
+    #authorization.register_grant(grants.ClientCredentialsGrant)
     authorization.register_grant(AuthorizationCodeGrant, [CodeChallenge(required=True)])
 
     #Support Revocation
