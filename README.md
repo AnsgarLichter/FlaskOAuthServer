@@ -10,6 +10,9 @@ project has already used Authlib for other scenarios.
 ## Testing
 If you want to test the OAuth server with your own client please have a look at the [OAuth 2.0 Client PoC](https://github.com/AnsgarLichter/FlaskOAuthClient).
 
+## PKCE
+The PKCE flow is currently not supported. If you want to use the server in a production environment, it is recommended to add the PKCE flow.
+
 ## Tips
 You may have to install the following if you use Ubuntu:
 ``sudo apt-get install python3-tk``
